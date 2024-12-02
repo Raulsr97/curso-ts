@@ -36,3 +36,10 @@ Funcion autoejecutada:
    - Evitar la contaminación global.
 
 
+Any:
+ - Tipo de dato exclusivo de Ts
+ - Se recomienda no usar este tipo de dato pues se considera una mala práctica.
+ - La utilidad de any radica cuando se quiere migrar de a poco de Js a Ts ya que incrementalmente definiríamos el tipo de dato donde sea necesario sin romper nuestro programa de golpe.
+ - Se puede realizar conversiones a tipos de datos primitivos.
+
+
