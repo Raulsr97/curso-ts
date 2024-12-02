@@ -19,3 +19,20 @@ transpilar ts para transformarlo a js:
 
 Para evitar estar haciendo el proceso de transpilacion cada que queremos ejecutar se crea un archivo **tsconfig.json** el cual lo podemos crear con el comando *npx tsc --init*, este archivo vendra con las configuraciones básicas se puede personalizar a la necesidad del proyecto.
 Para compilar en tiempo real podemos usar el comando  *npx tsc --watch*
+
+
+Tipado en TypeScript:
+ - Hace referencia a como declaramos una variable
+ - necesitamosel tipo de dato, conocido como **type annotation**, con eso evitamos mexclar ditintos tipos de datos.
+
+
+Funcion autoejecutada:
+ - Función que se define y se ejecuta inmediatamente después de ser declarada.
+ - IIFE(Immediately Invoked Function Expression)
+ - Para que sirven:
+   - Aisla el scope, non afectan el ámbito global.
+   - Modularidad: Puedes encapsular lógica o inicializar configuraciones en un entorno controlado.
+   - Ejecución inmediata
+   - Evitar la contaminación global.
+
+
